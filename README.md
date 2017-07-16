@@ -9,4 +9,4 @@ npm run react
 npm run dev
 
 
-Checkout the http://localhost:8888/react
+visit http://localhost:8888/react
