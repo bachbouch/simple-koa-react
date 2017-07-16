@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node src/server/main.js",
     "build": "NODE_ENV=production webpack --config webpack.config.js --separate-stylesheet -p --progress --profile --colors",
     "hot-dev-server": "webpack-dev-server --content-base public -ds --config webpack.config.js --hot --progress --colors --inline",
-    "dev-server": "npm run hot-dev-server",
+    "react": "npm run hot-dev-server",
     "dev": "./node_modules/.bin/nodemon src/server/app.js",
     "prd": "pm2 start src/server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
